@@ -13,6 +13,14 @@ namespace ConsoleApp1
 
         public int ISBN;
 
+        // Parameterless constructor
+      
+        public Book(string bookTitle, string bookAuthor, int BookISBN )
+        {
+            Title = bookTitle;
+            Author = bookAuthor;
+            ISBN = BookISBN;
+        }
 
         public void DisplayBookInfo()
         {
